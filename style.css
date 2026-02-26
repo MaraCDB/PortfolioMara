@@ -389,6 +389,7 @@ strong {
   font-size: var(--font-size-base);
   color: var(--color-text);
   line-height: 1.7;
+  text-align: justify;
 }
 
 
@@ -461,6 +462,7 @@ strong {
 .chi-sono__content {
   font-size: var(--font-size-base);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .chi-sono__content p + p {

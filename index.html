@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mara Melchiori — Supporto digitale per piccole attività. Ti aiuto a creare il tuo sito, configurare software e usare strumenti online in modo semplice e autonomo.">
+  <meta name="author" content="Mara Melchiori">
+  <title>Mara Melchiori — Supporto digitale per piccole attività</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER / NAVIGAZIONE
+  ============================================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__brand">
+        <span class="header__name">Mara Melchiori</span>
+        <span class="header__tagline">Supporto digitale per piccole attività</span>
+      </a>
+      <nav class="header__nav" id="nav" aria-label="Navigazione principale">
+        <ul class="header__menu">
+          <li><a href="#servizi" class="header__link">Servizi</a></li>
+          <li><a href="#metodo" class="header__link">Metodo</a></li>
+          <li><a href="#chi-sono" class="header__link">Chi sono</a></li>
+          <li><a href="#contatti" class="header__link header__link--cta">Contattami</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================
+         HERO SECTION
+    ============================================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">Il digitale non deve complicarti la vita.</h1>
+        <p class="hero__subtitle">Ti aiuto a creare il tuo sito, configurare software e usare strumenti online in modo semplice e autonomo.</p>
+        <a href="#contatti" class="btn btn--primary">Parliamone</a>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SEZIONE PROBLEMA
+    ============================================= -->
+    <section class="problema" id="problema">
+      <div class="container problema__inner">
+        <p class="problema__text">Il digitale può sembrare complicato.</p>
+        <p class="problema__text">Spesso non lo è.</p>
+        <p class="problema__text problema__text--evidenza">Serve solo qualcuno che lo spieghi con chiarezza.</p>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SERVIZI
+    ============================================= -->
+    <section class="servizi" id="servizi">
+      <div class="container">
+        <h2 class="section-title">Cosa posso fare per te</h2>
+        <div class="servizi__grid">
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <rect x="6" y="8" width="36" height="26" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <line x1="6" y1="14" x2="42" y2="14" stroke="currentColor" stroke-width="2.5"/>
+                <line x1="18" y1="40" x2="30" y2="40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="24" y1="34" x2="24" y2="40" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Siti web autogestibili</h3>
+            <p class="card__text">Ti creo un sito chiaro, ordinato e facile da aggiornare. Niente di complicato: impari a gestirlo in autonomia, senza dipendere da nessuno.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <circle cx="24" cy="20" r="6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <path d="M16 34c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Configurazione software</h3>
+            <p class="card__text">Ti aiuto a scegliere e configurare gli strumenti giusti: email, calendario, gestionale, fatturazione. Tutto impostato e pronto all'uso.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <path d="M12 36V18l12-10 12 10v18a2 2 0 01-2 2H14a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <path d="M20 38V28h8v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Supporto operativo</h3>
+            <p class="card__text">Un punto di riferimento per le cose di tutti i giorni: un dubbio tecnico, un aggiornamento da fare, un problema da risolvere. Ci penso io.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <rect x="8" y="8" width="32" height="32" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <line x1="18" y1="8" x2="18" y2="40" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
+                <line x1="8" y1="20" x2="40" y2="20" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
+                <circle cx="30" cy="30" r="5" stroke="currentColor" stroke-width="2.5" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Grafica essenziale</h3>
+            <p class="card__text">Volantini, biglietti da visita, immagini per i social. Niente di esagerato, solo quello che serve per presentarti bene.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         METODO DI LAVORO
+    ============================================= -->
+    <section class="metodo" id="metodo">
+      <div class="container">
+        <h2 class="section-title">Come lavoro</h2>
+        <div class="metodo__grid">
+
+          <div class="step">
+            <span class="step__number">1</span>
+            <h3 class="step__title">Ascolto</h3>
+            <p class="step__text">Partiamo da te: cosa ti serve, cosa ti crea difficoltà, quali sono i tuoi obiettivi. Nessuna fretta.</p>
+          </div>
+
+          <div class="step">
+            <span class="step__number">2</span>
+            <h3 class="step__title">Configuro</h3>
+            <p class="step__text">Mi occupo io della parte tecnica. Preparo tutto in modo che funzioni bene e sia semplice da usare.</p>
+          </div>
+
+          <div class="step">
+            <span class="step__number">3</span>
+            <h3 class="step__title">Ti spiego</h3>
+            <p class="step__text">Ti mostro come funziona ogni cosa, con calma, senza termini complicati. Finché non ti senti sicuro.</p>
+          </div>
+
+          <div class="step">
+            <span class="step__number">4</span>
+            <h3 class="step__title">Ti seguo</h3>
+            <p class="step__text">Resto a disposizione per qualsiasi dubbio. Non ti lascio da solo: sono qui anche dopo.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CHI SONO
+    ============================================= -->
+    <section class="chi-sono" id="chi-sono">
+      <div class="container chi-sono__inner">
+        <div class="chi-sono__content">
+          <h2 class="section-title section-title--left">Chi sono</h2>
+          <p>Mi chiamo <strong>Mara</strong> e lavoro con piccole attività locali: negozi, artigiani, professionisti, estetiste. Persone che hanno bisogno del digitale ma non hanno tempo (o voglia) di impazzirci dietro.</p>
+          <p>Il mio lavoro è semplificare. Parto da quello che ti serve davvero, lo configuro, e poi ti insegno a usarlo.</p>
+          <p class="chi-sono__evidenza">Non faccio le cose al posto tuo e sparisco. Ti spiego come funzionano, così puoi gestirle in autonomia.</p>
+          <p>Mi piace lavorare con ordine, chiarezza e pazienza. Se hai bisogno di qualcuno che parli la tua lingua e non quella dei tecnici, siamo già sulla buona strada.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CALL TO ACTION FINALE
+    ============================================= -->
+    <section class="cta-finale" id="contatti">
+      <div class="container cta-finale__inner">
+        <h2 class="cta-finale__title">Hai bisogno di una mano?</h2>
+        <p class="cta-finale__text">Scrivimi senza impegno. Parliamo di quello che ti serve e vediamo insieme come posso aiutarti.</p>
+        <a href="mailto:info@maramelchiori.it" class="btn btn--primary btn--large">Contattami</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">Mara Melchiori &mdash; Supporto digitale per piccole attività</p>
+      <p class="footer__copy">&copy; 2026 Mara Melchiori. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       SCRIPT — Menu mobile + smooth scroll + header
+  ============================================= -->
+  <script>
+    (function () {
+      /* Menu mobile toggle */
+      const toggle = document.getElementById('menu-toggle');
+      const nav = document.getElementById('nav');
+      const header = document.getElementById('header');
+
+      toggle.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('header__nav--open');
+        document.body.classList.toggle('no-scroll');
+      });
+
+      /* Chiudi menu al click su un link */
+      nav.querySelectorAll('.header__link').forEach(function (link) {
+        link.addEventListener('click', function () {
+          toggle.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('header__nav--open');
+          document.body.classList.remove('no-scroll');
+        });
+      });
+
+      /* Header compatto allo scroll */
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 60) {
+          header.classList.add('header--scrolled');
+        } else {
+          header.classList.remove('header--scrolled');
+        }
+      });
+
+      /* Animazioni allo scroll (Intersection Observer) */
+      const animatedElements = document.querySelectorAll(
+        '.card, .step, .problema__text, .chi-sono__content'
+      );
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15 });
+
+        animatedElements.forEach(function (el) {
+          el.classList.add('animate-on-scroll');
+          observer.observe(el);
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>

@@ -481,6 +481,84 @@ strong {
 
 
 /* =============================================
+   ZONE SERVITE
+   ============================================= */
+.zone {
+  padding: var(--section-padding);
+  background-color: var(--color-light);
+}
+
+.zone__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.zone__intro {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.zone__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.zone__chip {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.35rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.zone__chip:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+}
+
+.zone__chip--muted {
+  background-color: transparent;
+  color: var(--color-secondary);
+  box-shadow: none;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.zone__chip--muted:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.zone__remote {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.zone__remote svg {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}
+
+
+/* =============================================
    CTA FINALE
    ============================================= */
 .cta-finale {
@@ -564,6 +642,11 @@ strong {
 .metodo__grid .step:nth-child(4).animate-on-scroll {
   transition-delay: 0.3s;
 }
+
+.zone__list .zone__chip:nth-child(2).animate-on-scroll { transition-delay: 0.08s; }
+.zone__list .zone__chip:nth-child(3).animate-on-scroll { transition-delay: 0.16s; }
+.zone__list .zone__chip:nth-child(4).animate-on-scroll { transition-delay: 0.24s; }
+.zone__list .zone__chip:nth-child(5).animate-on-scroll { transition-delay: 0.32s; }
 
 
 /* =============================================

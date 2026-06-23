@@ -280,7 +280,7 @@ strong {
    ============================================= */
 .hero {
   padding: 10rem 0 6rem;
-  background: linear-gradient(170deg, var(--color-light) 0%, var(--color-bg) 60%);
+  background-color: var(--color-light);
   text-align: center;
 }
 
@@ -291,8 +291,9 @@ strong {
 
 .hero__title {
   font-size: var(--font-size-hero);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
   margin-bottom: 1.25rem;
   color: var(--color-primary);
 }
@@ -674,7 +675,7 @@ strong {
 @media (min-width: 900px) {
 
   :root {
-    --font-size-hero: 3.25rem;
+    --font-size-hero: 3rem;
   }
 
   .container {

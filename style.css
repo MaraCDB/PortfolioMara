@@ -380,6 +380,19 @@ strong {
   color: var(--color-secondary);
 }
 
+.card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.card__head .card__icon {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
 .card__title {
   font-size: var(--font-size-lg);
   margin-bottom: 0.75rem;
